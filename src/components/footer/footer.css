@@ -1,1 +1,31 @@
-
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #fffefe;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer a:hover {
+    color: #000;
+  }
+  .footer {
+    background-color: #0c023a;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    border: 3px solid #0b79f6; /* Adiciona uma borda com cor cinza (#ccc) e espessura de 1px */
+  }
+  
+  
+  

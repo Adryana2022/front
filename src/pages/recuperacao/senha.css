@@ -1,0 +1,36 @@
+
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 80px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

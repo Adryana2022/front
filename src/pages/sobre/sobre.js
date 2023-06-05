@@ -104,12 +104,12 @@ function Sobre(){
                         </div>
                         <div className="col-md-3">
                         <picture>
-                            <img src="https://i.imgur.com/NqqZuCL.png" alt=""
+                            <img src="https://images-ext-1.discordapp.net/external/d6FsnEECf3vsm9hQoD5n1ldFQgnGNR_1sXuf_huXmvY/https/i.imgur.com/LMbeXCG.jpg?width=472&height=473" alt=""
                                 className="rounded-circle bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"
                                 height="100%" />
 
                             </picture>
-                            <h5 className="text-center">Augusto Cavalcante</h5>
+                            <h5 className="text-center">David Patric</h5>
                             <p className="text-center fontBold text-muted ">Responsavel pelas regras de negócio</p>
                         </div>
                         <div className="col-md-3">

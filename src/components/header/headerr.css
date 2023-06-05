@@ -8,4 +8,19 @@
     margin-right: 320px;
     width: 160px;
     height: 150px;
+
 }
+
+.navbar-nav .nav-item {
+    border: 1px solid #022105;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background-color: #03265f;
+    color: #fff9f9;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  

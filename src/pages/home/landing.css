@@ -1,0 +1,48 @@
+.landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #001d3d;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .globo-girando {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    animation: spin 2s linear infinite;
+  }
+   
+  
+  .welcome-message {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .landing-text {
+    font-size: 20px;
+    color: #c5c1c1;
+    margin-bottom: 20px;
+  }
+  
+  .login-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-link:hover {
+    background-color: #0056b3;
+  }
+  

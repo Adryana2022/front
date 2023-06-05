@@ -1,5 +1,6 @@
 import React from 'react'
 import './headerr.css'
+import { Link, useLocation } from 'react-router-dom';
 
 function Header(){
     return(
@@ -16,15 +17,23 @@ function Header(){
                         <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
+                        <a className="nav-link" href="/login">Login</a>
+                        </li>
+                        <li className="nav-item">
                         <a className="nav-link" href="/cadastro">Cadastro</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="/sobre">Sobre nós</a>
                         </li>
+                       
                         <li className="nav-item">
-                        <a className="nav-link disabled">Suporte</a>
+                        <a className="nav-link" href="/Busca">Busca Estabelecimentos</a>
                         </li>
-                        
+                        <li className="nav-item">
+                        <a className="nav-link" href="/MapComponet">maps</a>
+                        </li>
+                      
+                      
                     </ul>
                     </div>
                 </div>

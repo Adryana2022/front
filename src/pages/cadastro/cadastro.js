@@ -85,6 +85,7 @@ function Cadastro(){
         
     
         <div>
+            <h1> Faça seu Cadastro </h1>
             
             <form onSubmit={registrar} action='/'>
                 <h3>Dados de Acesso</h3>
