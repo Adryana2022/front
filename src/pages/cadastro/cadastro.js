@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import axios from 'axios'
 import './cadastro.css'
-import { IMaskInput } from "react-imask";
+
 
 
 
@@ -101,10 +101,6 @@ function Cadastro(){
 
                 <h3>Dados Pessoais</h3>
                 
-                        <IMaskInput
-                        q    mask="000.000.000-00"
-                            placeholder="Digite o seu CPF"
-                        />
                 <label htmlFor="cpf">CPF:</label>
                 <input type="text" id="cpf" value={cpf} onChange={(e)=> setCpf(e.target.value)} required />
 

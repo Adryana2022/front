@@ -11,15 +11,15 @@ function RecuperacaoSenha() {
 
     try {
       // Enviar solicitação para redefinição de senha
-      const response = await axios.post('http://localhost:3000/recuperar', {
+      const response = await axios.post('http://localhost:5000/recuperar', {
         email
       });
-
+      console.log(response)
       // Verificar a resposta da API
       if (response.status === 200) {
-        setMensagem('Um email de recuperação foi enviado para o seu endereço de email.');
+        setMensagem(response.data.msg);
       } else {
-        setMensagem('Houve um erro ao processar a solicitação. Por favor, tente novamente mais tarde.');
+        setMensagem(response.data.msg);
       }
     } catch (error) {
       console.log(error);

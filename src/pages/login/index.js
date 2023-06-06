@@ -6,6 +6,7 @@ import './index.css'
 function Index() {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
+  const [mensagem, setMensagem] = useState('');
   const navigate = useNavigate();
 
   const login = async (evento) => {
@@ -21,9 +22,9 @@ function Index() {
       navigate('/inicio');
     } catch (err) {
       if (err.response && err.response.status === 401) {
-        alert('Usuário não cadastrado');
+        setMensagem('Usuário não cadastrado');
       } else {
-        alert('Erro usuário não cadastrado');
+        setMensagem('Erro usuário não cadastrado');
       }
       console.log(err);
     }
@@ -43,6 +44,7 @@ function Index() {
             <label htmlFor="senha">Digite sua senha</label><br />
             <input type="password" id="senha" placeholder="*********" className="w-100" value={senha} onChange={(evento) => setSenha(evento.target.value)} required />
             <span className="lnr lnr-eye"></span>
+            {mensagem && <p>{mensagem}</p>}
           </div>
           <div>
             <input type="checkbox" name="dados" />
@@ -51,12 +53,16 @@ function Index() {
             <a href="/senha">Esqueceu usuário ou senha?</a>
             <br /><br />
             <div>
+          
+    
               <button type="submit" className="btn btn-primary w-100 mb-3">Entrar</button>
+            
               <a type="button" className="btn btn-primary w-100" href="/cadastro">Cadastrar</a>
             </div>
           </div>
         </article>
       </form>
+ 
     </div>
   )
 }
