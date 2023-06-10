@@ -41,6 +41,9 @@ function Header() {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Busca">Busca Estabelecimentos</NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Map"> Mapa</NavLink>
+              </li>
               
             </ul>
           </div>

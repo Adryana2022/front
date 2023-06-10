@@ -41,7 +41,7 @@ function RecuperacaoSenha() {
         />
         <button type="submit">Enviar</button>
       </form>
-      {mensagem && <p>{mensagem}</p>}
+      {mensagem && <p className="msg">{mensagem}</p>}
     </div>
   );
 }

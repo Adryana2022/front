@@ -9,6 +9,7 @@ import BuscaEstabelecimentos from './pages/NovaPagina/BuscaEstabelecimentos';
 import RecuperacaoSenha from './pages/recuperacao/senha.js'
 import LandingPage from './pages/home/landing.js'
 import CadastroClin from './pages/CadastroClin/CadastroClin.js'
+import Map from './pages/NovaPagina/map.js'
 
 
 
@@ -28,9 +29,8 @@ class App extends Component {
                             <Route exact path='/senha' Component={RecuperacaoSenha} />
                             <Route exact path='/' Component={LandingPage} />
                             <Route exact path='/cadastroClin' Component={CadastroClin} />
-                       
-                          
-                            
+                            <Route exact path='/map' Component={Map}/>
+                    
                         </Routes>
                     </Layout>
                 </div>
