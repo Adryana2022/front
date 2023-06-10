@@ -1,26 +1,30 @@
-
 .container {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.a1{
-    margin-right: 320px;
-    width: 160px;
-    height: 150px;
-
+.a1 {
+  margin-right: 40px;
+  width: 160px;
+  height: 150px;
 }
 
 .navbar-nav .nav-item {
-    border: 1px solid #022105;
-    border-radius: 5px;
-    margin: 5px;
-  }
-  
-  .navbar-nav .nav-link.active {
-    background-color: #03265f;
-    color: #fff9f9;
-    padding: 8px 10px;
-    border-radius: 5px;
-  }
-  
+  border: 1px solid #022105;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #1fdf69;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #130592;
+  color: #fff9f9;
+  padding: 8px 10px;
+  border-radius: 5px;
+}

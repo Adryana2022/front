@@ -57,7 +57,12 @@ function Index() {
     
               <button type="submit" className="btn btn-primary w-100 mb-3">Entrar</button>
             
-              <a type="button" className="btn btn-primary w-100" href="/cadastro">Cadastrar</a>
+              <a type="button" className="btn btn-primary w-100" href="/cadastro">Cadastro Usuário</a>
+              <p>
+                
+              </p>
+              <a type="button" className="btn btn-success w-100" href="/cadastroClin">Cadastro Clínicas</a>
+
             </div>
           </div>
         </article>

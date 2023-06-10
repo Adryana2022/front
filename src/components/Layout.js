@@ -3,20 +3,21 @@ import Header from './header/header.js'
 import Footer from "./footer/footer.js";
 
 
-function Layout({children}){
-    return(
+function Layout({ children }) {
+  return (
+    <div>
+      <Header />
+
+      <main>
         <div>
-            <Header />
-                
-                <main>
-               
-                    {children}
-                    
-                </main>
-            
-                <Footer  />
-                
+        
+          {children}
         </div>
-    )
+      </main>
+
+      <Footer />
+    </div>
+  );
 }
-export default Layout
+
+export default Layout;

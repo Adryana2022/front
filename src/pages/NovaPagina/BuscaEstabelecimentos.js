@@ -62,7 +62,7 @@ function BuscaEstabelecimentos() {
   return (
     <div>
       
-      <h2 > Busca por Estabelecimentos de Saúde</h2>
+      <h2 className='title'> Busca por Estabelecimentos de Saúde</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="nomeEstabelecimento">Nome do Estabelecimento:</label>
         <input

@@ -44,7 +44,17 @@ function Logado(){
                 {usuario.name}
             </h1>)
             }
+      
+        <div> 
+            <h1> Olá, Escolha uma opção abaixo: </h1>   </div>
+            <p> Buscar Clínicas Cadastradas.</p>
+            <p> Buscar Clínicas perto de você.</p>
+            <p> Dicas de Clínicas.</p>
+            <p> Encontre o profissional de qualquer especialidade.</p>
+
         </div>
+        
+        
     )
 }
 

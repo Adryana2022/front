@@ -87,9 +87,11 @@ function Cadastro(){
         
     
         <div>
-            <h1> Faça seu Cadastro </h1>
+            <h1 className="title"> Faça seu Cadastro </h1>
+            
             
             <form onSubmit={registrar} action='/'>
+            <img className="img-uso" src="./img/usuario.gif" alt="logo globo" /> 
                 <h3>Dados de Acesso</h3>
                 <label htmlFor="Nome">Nome Completo:</label>
                 <input type="text" id="Nome" value={nome} onChange={(e)=> setNome(e.target.value)} required />
@@ -127,6 +129,8 @@ function Cadastro(){
 
                 <div className="">
                 <input type="submit" value="Cadastrar" />
+                <p> </p>
+                <a type="button" className="btn btn-primary w-100" href="/login">Voltar</a>
                 </div>
             </form>
         </div>

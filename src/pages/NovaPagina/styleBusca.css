@@ -1,3 +1,8 @@
-h2{
-    color:darkblue;
-}
+.title {
+    font-size: 30px;
+    color: navy;
+    border: 2px solid lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
